@@ -1,6 +1,6 @@
 # Python Installation Help for Newcomers
 
-## MacOS
+## MacOS (no CUDA)
 
 ### Install with package manager (Recommended)
 
@@ -23,6 +23,12 @@ python3 -m pip install --upgrade pip
 python3 -m pip install jupyter
 ```
 
+Finally, get numpy and OpenCV
+```
+python3 -m pip install numpy
+brew install opencv
+```
+
 ### Install with Anaconda (Not recommended)
 
 As an alternative, it's also possible to install python3 and jupyter with Anaconda.
@@ -39,6 +45,9 @@ sudo apt-get install python3 python3-dev
 sudo python3 -m pip install --upgrade pip
 sudo python3 -m pip install jupyter
 ```
+
+and follow [Official Installation Guide](https://docs.opencv.org/4.1.1/d7/d9f/tutorial_linux_install.html)
+to build from source.
 
 ## Windows
 
