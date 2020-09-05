@@ -52,3 +52,7 @@ to build from source.
 ## Windows
 
 TODO
+
+## PyTorch
+
+https://pytorch.org/get-started/locally/
