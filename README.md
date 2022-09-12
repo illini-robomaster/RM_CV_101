@@ -11,7 +11,7 @@ learning experiences.
 This repo is maintained by [Illini RoboMaster](https://github.com/illini-robomaster)
 from the University of Illinois at Urbana-Champaign.
 
-Please see [INSTALL.md](https://github.com/RogerQi/RM_CV_101/blob/master/INSTALL.md) for tutorial on installing Python 3 and jupyter notebook.
+Please see [INSTALL.md](./INSTALL.md) for tutorial on installing Python 3 and jupyter notebook.
 
 # Contents
 
