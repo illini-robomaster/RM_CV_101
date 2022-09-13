@@ -1,8 +1,10 @@
 # Python Installation Help for Newcomers
 
-## MacOS (no CUDA)
+## Install with Anaconda
 
-### Install with package manager (Recommended)
+Check out [this tutorial](https://www.datacamp.com/tutorial/installing-anaconda-windows) for installing Anaconda, [this tutorial](https://stackoverflow.com/questions/23119413/how-do-i-install-python-opencv-through-conda) for installing OpenCV, and [this tutorial](https://towardsdatascience.com/how-to-set-up-anaconda-and-jupyter-notebook-the-right-way-de3b7623ea4a) for installing Jupyter Notebook.
+
+## MacOS (no CUDA)
 
 Visit [brew.sh](https://brew.sh/) for the brew MacOS package manager
 (note: you can use MacPorts instead but I personally recommend brew). Follow the instruction and install brew.
@@ -29,13 +31,6 @@ python3 -m pip install numpy
 brew install opencv
 ```
 
-### Install with Anaconda (Not recommended)
-
-As an alternative, it's also possible to install python3 and jupyter with Anaconda.
-However, Anaconda is not a flexible choice since there are a lot of packages
-that do not reside in Anaconda. You may end up having to install multiple
-Python3 instances on your machine.
-
 ## Debain/Ubuntu
 
 Pull up terminal and put these commands in
@@ -51,8 +46,8 @@ to build from source.
 
 ## Windows
 
-TODO
+I personally don't use Windows for programming, so I encourage you to either look into Anaconda for Windows or Ubuntu Subsystem for Windows. If anyone with Windows has any suggestion about setting up dependencies on Windows, feel free to open a PR/issue and you can contribute to RM_CV_101!
 
 ## PyTorch
 
-https://pytorch.org/get-started/locally/
+Check out this [Get Started](https://pytorch.org/get-started/locally/) page from PyTorch official. If you used Anaconda, I recommend you follow instructions on this page and install everything with Anaconda.
